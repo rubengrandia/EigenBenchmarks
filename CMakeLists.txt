@@ -51,3 +51,15 @@ target_link_libraries(example7
         benchmark
         Eigen3::Eigen
         pthread)
+
+add_executable(example8 src/example8.cpp)
+target_link_libraries(example8
+        benchmark
+        Eigen3::Eigen
+        pthread)
+
+add_executable(example9 src/example9.cpp)
+target_link_libraries(example9
+        benchmark
+        Eigen3::Eigen
+        pthread)
